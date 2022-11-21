@@ -1,0 +1,17 @@
+[ 
+{ 
+	"username"		: "standard_user",
+	"password"		: "secret_sauce",
+	"firstname"		: "Sachin",
+	"lastname"		: "Bhandary",
+	"postcode"		: "456987",
+	"itema"			: "Sauce Labs Backpack",
+	"itemb"			: "Sauce Labs Bike Light",
+	"itemc"			: "Sauce Labs Bolt T-Shirt",
+	"itemd"			: "Sauce Labs Fleece Jacket",
+	"iteme"			: "Sauce Labs Onesie",
+	"itemf"			: "Test.allTheThings() T-Shirt (Red)"
+	
+	
+}
+]
