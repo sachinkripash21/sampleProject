@@ -42,10 +42,13 @@ public class LandingPage {
 		driver.get("https://www.saucedemo.com/");
 	}
 	
-	public boolean errorMessage()
+	public void errorMessage()
 	{
-		boolean message = errorMessage.isDisplayed();
-		return message;
+		String mixText = errorMessage.getText();
+		String text = mixText.replace(driver.findElement(By.cssSelector("button.error-button")).getText(), "").trim();
+		System.out.println(text);
+//		boolean message = errorMessage.isDisplayed();
+//		return message;
 	}
 
 }
